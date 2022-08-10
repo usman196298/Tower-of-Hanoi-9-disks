@@ -108,18 +108,10 @@ function countdowntimer()
 
 
 function checkwin()
-{
-    if((($("#rod3 div").length) == 9) &&  
-    ($("#rod3 div:first-child").width())  < ($("#rod3 div:nth-child(2)").width()) &&
-    ($("#rod3 div:nth-child(2)").width()) < ($("#rod3 div:nth-child(3)").width()) &&
-    ($("#rod3 div:nth-child(3)").width()) < ($("#rod3 div:nth-child(4)").width()) &&
-    ($("#rod3 div:nth-child(4)").width()) < ($("#rod3 div:nth-child(5)").width()) &&
-    ($("#rod3 div:nth-child(5)").width()) < ($("#rod3 div:nth-child(6)").width()) &&
-    ($("#rod3 div:nth-child(6)").width()) < ($("#rod3 div:nth-child(7)").width()) &&
-    ($("#rod3 div:nth-child(7)").width()) < ($("#rod3 div:nth-child(8)").width()) &&
-    ($("#rod3 div:nth-child(8)").width()) < ($("#rod3 div:nth-child(9)").width()) )
+{    
+    if((($("#rod3 div").length) == 9))
     {
-        var answer = alert("Game Over!\nYour Game Time is: "  + assignedtime + " s" + "\n\n Press 'OK' to Replay the Game" );
+        var answer = alert("Congratulations! You have won the game.\n\n Press 'OK' to Replay the Game" );
             document.location = 'file:///home/deltalabs/Documents/Visual%20Studio/myproject.html';
     }
 }
