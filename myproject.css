@@ -1,0 +1,90 @@
+.navbar-container {
+    text-align: center;
+    color: aliceblue;
+    background-color: #7c0808;
+}
+body {
+    background-image: url('back.jpg');
+    height: 100vh;
+}
+
+#firstdiv {
+    border-bottom: 10px aliceblue solid;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;    
+}
+#seconddiv {
+    border-bottom: 10px aliceblue solid;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+}
+#thirddiv {
+    border-bottom: 10px aliceblue solid;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.rod {
+    background-color:#9CEDFD;
+    width: 15px;
+    height: 300px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+.disk {
+    height: 30px;
+    border-radius: 15px;
+    color:aliceblue;
+    text-align: center;
+    position: relative;
+    top: 30px;
+    z-index: 1;
+}
+#disk9 {
+    width:130px; 
+    background-color: blue;   
+}
+#disk8 {
+    width:120px; 
+    background-color: orchid;   
+}
+#disk7 {
+    width:110px; 
+    background-color: olive;   
+}
+#disk6 {
+    width:100px; 
+    background-color: teal;   
+}
+#disk5 {
+    width:90px; 
+    background-color: blueviolet;   
+}
+#disk4 {
+    width:80px; 
+    background-color: lightcoral;   
+}
+#disk3 {
+    width:70px; 
+    background-color: yellowgreen;   
+}
+#disk2 {
+    width:60px; 
+    background-color: red;   
+}
+#disk1 {
+    width:50px; 
+    background-color: black;   
+}
+
+span {
+    user-select:none;
+}

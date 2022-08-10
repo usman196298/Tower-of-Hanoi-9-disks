@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" 
+   integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+
+
+
+    <script type="text/javascript" src="jquery.min.js"></script>
+
+    <script src="jquery-ui/jquery-ui.js"></script>
+
+    <link href="jquery-ui/jquery-ui.css" rel="stylesheet">
+
+    <title>Tower of Hanoi</title>
+    
+    <link rel="stylesheet" type="text/css" href="myproject.css">
+
+  </head>
+
+  <body>
+
+    <nav class="navbar-container">                                       
+        <h1>/ / /- - - Tower of Hanoi - - -\ \ \</h1>
+    </nav>
+
+
+    <div class="container" id="con1">                                    
+        <div class="row">    
+
+            <div class="col-4">
+                <button type="button" class="btn btn-success">Time: <span id="timer"></span></button>
+            </div>
+
+            <div class="col-4">
+                <button type="button" class="btn btn-info">Moves: <span id="moves"></span></button>
+            </div>
+
+            <div class="col-4">
+                <button type="button" class="btn btn-danger">Moves Left: <span id="moveleft"></span></button>
+            </div>
+
+        </div>
+
+        <br><br>
+    </div>
+
+
+    <div class="container" id="con2">                                    
+
+        <div  class="row">
+
+            <div class="col-4" id="firstdiv">                                  
+
+                <div class="rod" id="rod1">
+                
+                    <div class="disk" id="disk9" style="width:130px; background-color: blue"><span style="user-select:none">Nine</span></div>
+
+                    <div class="disk" id="disk8" style="width:120px; background-color: orchid"><span style="user-select:none">Eight</span></div>
+
+                    <div class="disk" id="disk7" style="width:110px; background-color: olive"><span style="user-select:none">Seven</span></div>
+
+                    <div class="disk" id="disk6" style="width:100px; background-color: teal;"><span style="user-select:none">Six</span></div>
+
+                    <div class="disk" id="disk5" style="width:90px; background-color: blueviolet;"><span style="user-select:none">Five</span></div>
+
+                    <div class="disk" id="disk4" style="width:80px; background-color: lightcoral;"><span style="user-select:none">Four</span></div>
+
+                    <div class="disk" id="disk3" style="width:70px; background-color: yellowgreen;"><span style="user-select:none">Three</span></div>
+                   
+                    <div class="disk" id="disk2" style="width:60px; background-color: red;"><span style="user-select:none">Two</span></div>
+
+                    <div class="disk" id="disk1" style="width:50px; background-color: black;"><span style="user-select:none">One</span></div>
+ 
+                </div>
+
+            </div>
+
+
+            <div class="col-4" id="seconddiv">                                  
+                <div class="rod" id="rod2"></div>
+            </div>
+
+
+            <div class="col-4" id="thirddiv">                                  
+                <div class="rod" id="rod3"></div>
+            </div>   
+
+        </div>
+
+    </div>
+
+
+    <script type="text/javascript" src="myproject.js"></script>   
+         
+
+  </body>
+</html>
